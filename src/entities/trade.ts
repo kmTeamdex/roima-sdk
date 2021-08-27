@@ -12,6 +12,7 @@ import {
   Token,
   TradeType
 } from '../core'
+import { InsufficientInputAmountError, InsufficientReservesError } from '../errors'
 import { Pair } from './pair'
 import { Route } from './route'
 
@@ -253,7 +254,7 @@ export class Trade<TInput extends Currency, TOutput extends Currency, TTradeType
         ;[amountOut] = pair.getOutputAmount(amountIn)
       } catch (error) {
         // input too low
-        if (error.isInsufficientInputAmountError) {
+        if (error instanceof InsufficientInputAmountError) {
           continue
         }
         throw error
@@ -347,7 +348,7 @@ export class Trade<TInput extends Currency, TOutput extends Currency, TTradeType
         ;[amountIn] = pair.getInputAmount(amountOut)
       } catch (error) {
         // not enough liquidity in this pair
-        if (error.isInsufficientReservesError) {
+        if (error instanceof InsufficientReservesError) {
           continue
         }
         throw error

@@ -17,7 +17,7 @@ function copy(abis: string[], abiPath: string) {
     const prodAbisPaths = prodAbis.map((abi) => {
       return {
         from: path.resolve(dir, abi),
-        to: path.resolve('src', 'abis', abi)
+        to: path.resolve('abis', abi)
       }
     })
     for (const { from, to } of prodAbisPaths) {

@@ -1,7 +1,7 @@
-import { Trade } from 'entities'
 import invariant from 'tiny-invariant'
 
 import { Currency, CurrencyAmount, Percent, Token, TradeType, validateAndParseAddress } from './core'
+import { Trade } from './entities'
 
 /**
  * Options for producing the arguments to send call to the router.
@@ -94,9 +94,9 @@ export abstract class Router {
 
     const useFeeOnTransfer = Boolean(options.feeOnTransfer)
 
-    let methodName: string
-    let args: (string | string[])[]
-    let value: string
+    let methodName = ''
+    let args: (string | string[])[] = []
+    let value = ''
     switch (trade.tradeType) {
       case TradeType.EXACT_INPUT:
         if (etherIn) {

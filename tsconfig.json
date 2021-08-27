@@ -1,15 +1,19 @@
 {
   "ts-node": {
     "compilerOptions": {
-      "module": "commonjs"
+      "module": "commonjs",
+      "rootDir": "."
     }
   },
-  "include": ["src"],
+  "include": ["src", "abis"],
+  "exclude": ["dist", "abis/types"],
   "compilerOptions": {
+    "outDir": "dist",
+    "declaration": true,
+    "declarationDir": ".",
     "target": "es2018",
     "module": "esnext",
     "importHelpers": true,
-    "declaration": true,
     "sourceMap": true,
     "strict": true,
     "noImplicitAny": true,
@@ -24,9 +28,6 @@
     "noFallthroughCasesInSwitch": true,
     "moduleResolution": "node",
     "baseUrl": "./",
-    "paths": {
-      "*": ["src/*", "node_modules/*"]
-    },
     "esModuleInterop": true,
     "resolveJsonModule": true
   }

@@ -1,6 +1,6 @@
 import { keccak256 } from '@ethersproject/solidity'
 
-import UniswapV2Pair from './abis/UniswapV2Pair.json'
+import UniswapV2Pair from '../abis/UniswapV2Pair.json'
 import { INIT_CODE_HASH } from './constants'
 
 // this _could_ go in constants, except that it would cost every consumer of the sdk the CPU to compute the hash

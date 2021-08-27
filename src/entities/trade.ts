@@ -1,17 +1,17 @@
+import invariant from 'tiny-invariant'
+
+import { ONE, ZERO } from '../constants'
 import {
   computePriceImpact,
-  Token,
   Currency,
   CurrencyAmount,
   Fraction,
   Percent,
   Price,
   sortedInsert,
+  Token,
   TradeType
-} from '@uniswap/sdk-core'
-import { ONE, ZERO } from '../constants'
-import invariant from 'tiny-invariant'
-
+} from '../core'
 import { Pair } from './pair'
 import { Route } from './route'
 
@@ -205,8 +205,9 @@ export class Trade<TInput extends Currency, TOutput extends Currency, TTradeType
     if (this.tradeType === TradeType.EXACT_INPUT) {
       return this.inputAmount
     } else {
-      const slippageAdjustedAmountIn = new Fraction(ONE).add(slippageTolerance).multiply(this.inputAmount.quotient)
-        .quotient
+      const slippageAdjustedAmountIn = new Fraction(ONE)
+        .add(slippageTolerance)
+        .multiply(this.inputAmount.quotient).quotient
       return CurrencyAmount.fromRawAmount(this.inputAmount.currency, slippageAdjustedAmountIn)
     }
   }

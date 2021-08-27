@@ -1,5 +1,10 @@
 {
-  "include": ["src", "test"],
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  },
+  "include": ["src"],
   "compilerOptions": {
     "target": "es2018",
     "module": "esnext",

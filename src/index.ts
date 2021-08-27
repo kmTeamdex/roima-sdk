@@ -1,5 +1,9 @@
-export { FACTORY_ADDRESS, INIT_CODE_HASH, MINIMUM_LIQUIDITY } from './constants'
+import JSBI from 'jsbi'
 
-export * from './errors'
+export { JSBI }
+
+export { FACTORY_ADDRESS, INIT_CODE_HASH, MINIMUM_LIQUIDITY } from './constants'
+export * from './core'
 export * from './entities'
+export * from './errors'
 export * from './router'

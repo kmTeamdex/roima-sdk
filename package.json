@@ -1,45 +1,64 @@
 {
-  "name": "@uniswap/v2-sdk",
+  "name": "@manekiswap/sdk",
   "license": "MIT",
   "version": "3.0.0",
-  "description": "🛠 An SDK for building applications on top of Uniswap V2",
+  "description": "🛠 An SDK for building applications on top of Manekiswap",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/Uniswap/uniswap-v2-sdk.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manekiswap/manekiswap-sdk.git"
+  },
   "keywords": [
-    "uniswap",
+    "manekiswap",
     "ethereum"
   ],
-  "module": "dist/v2-sdk.esm.js",
+  "module": "dist/sdk.esm.js",
   "scripts": {
-    "lint": "tsdx lint src test",
+    "abis": "ts-node scripts/abis.ts",
+    "lint": "eslint --fix --ext .ts",
     "build": "tsdx build",
     "start": "tsdx watch",
     "test": "tsdx test",
     "prepublishOnly": "tsdx build"
   },
   "dependencies": {
-    "@ethersproject/address": "^5.0.0",
-    "@ethersproject/solidity": "^5.0.0",
-    "@uniswap/sdk-core": "^3.0.0-alpha.3",
-    "tiny-invariant": "^1.1.0",
-    "tiny-warning": "^1.0.3"
+    "@ethersproject/address": "5.4.0",
+    "@ethersproject/solidity": "5.4.0",
+    "big.js": "6.1.1",
+    "decimal.js-light": "2.5.1",
+    "jsbi": "3.2.1",
+    "tiny-invariant": "1.1.0",
+    "tiny-warning": "1.0.3",
+    "toformat": "2.0.0"
   },
   "devDependencies": {
-    "@types/big.js": "^4.0.5",
-    "@types/jest": "^24.0.25",
-    "@uniswap/v2-core": "^1.0.1",
-    "tsdx": "^0.14.1"
+    "@types/big.js": "6.1.1",
+    "@types/jest": "27.0.1",
+    "@types/node": "16.7.2",
+    "@typescript-eslint/eslint-plugin": "4.29.3",
+    "@typescript-eslint/parser": "4.29.3",
+    "eslint": "7.32.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-import": "2.24.2",
+    "eslint-plugin-prettier": "3.4.1",
+    "eslint-plugin-react": "7.24.0",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "eslint-plugin-simple-import-sort": "7.0.0",
+    "prettier": "2.3.2",
+    "rollup-plugin-copy": "^3.4.0",
+    "ts-node": "10.2.1",
+    "tsdx": "0.14.1",
+    "typescript": "4.3.5"
   },
   "engines": {
-    "node": ">=10"
+    "node": ">=12.0.0"
   },
-  "prettier": {
-    "printWidth": 120,
-    "semi": false,
-    "singleQuote": true
-  }
+  "bugs": {
+    "url": "https://github.com/manekiswap/manekiswap-sdk/issues"
+  },
+  "homepage": "https://github.com/manekiswap/manekiswap-sdk#readme"
 }

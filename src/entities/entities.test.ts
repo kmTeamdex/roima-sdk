@@ -1,6 +1,7 @@
 import JSBI from 'jsbi'
 import invariant from 'tiny-invariant'
-import { WETH9 as _WETH9, TradeType, Token, CurrencyAmount } from '@uniswap/sdk-core'
+
+import { CurrencyAmount, Token, TradeType, WETH9 as _WETH9 } from '../core'
 import { Pair, Route, Trade } from '../index'
 
 const ADDRESSES = [
@@ -21,7 +22,7 @@ function decimalize(amount: number, decimals: number): JSBI {
 }
 
 describe('entities', () => {
-  DECIMAL_PERMUTATIONS.forEach(decimals => {
+  DECIMAL_PERMUTATIONS.forEach((decimals) => {
     describe(`decimals permutation: ${decimals}`, () => {
       let tokens: Token[]
       beforeAll(() => {

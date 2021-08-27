@@ -1,8 +1,9 @@
 import JSBI from 'jsbi'
+import invariant from 'tiny-invariant'
+
+import { CurrencyAmount, Ether, Percent, Token, WETH9 } from './core'
 import { Pair, Route, Trade } from './entities'
 import { Router } from './router'
-import invariant from 'tiny-invariant'
-import { CurrencyAmount, Percent, Ether, Token, WETH9 } from '@uniswap/sdk-core'
 
 function checkDeadline(deadline: string[] | string): void {
   expect(typeof deadline).toBe('string')

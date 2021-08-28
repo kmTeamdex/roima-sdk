@@ -1,7 +1,7 @@
 {
   "name": "@manekiswap/manekiswap-sdk",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "🛠 An SDK for building applications on top of Manekiswap",
   "files": [
     "abis",
@@ -24,8 +24,7 @@
     "lint": "eslint --fix --ext .ts",
     "build": "yarn clean && rollup -c",
     "start": "rollup -c -w",
-    "test": "jest",
-    "prepublishOnly": "yarn build"
+    "test": "jest"
   },
   "dependencies": {
     "big.js": "6.1.1",

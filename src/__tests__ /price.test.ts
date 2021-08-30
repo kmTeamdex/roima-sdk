@@ -1,6 +1,4 @@
-import { Token } from '../token'
-import { CurrencyAmount } from './currencyAmount'
-import { Price } from './price'
+import { CurrencyAmount, Price, Token } from '../index'
 
 describe('Price', () => {
   const ADDRESS_ZERO = '0x0000000000000000000000000000000000000000'

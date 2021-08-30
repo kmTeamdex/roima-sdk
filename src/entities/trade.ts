@@ -1,20 +1,17 @@
 import invariant from 'tiny-invariant'
 
-import { ONE, ZERO } from '../constants'
-import {
-  computePriceImpact,
-  Currency,
-  CurrencyAmount,
-  Fraction,
-  Percent,
-  Price,
-  sortedInsert,
-  Token,
-  TradeType
-} from '../core'
+import { ONE, TradeType, ZERO } from '../constants'
 import { InsufficientInputAmountError, InsufficientReservesError } from '../errors'
+import { computePriceImpact } from '../utils/computePriceImpact'
+import { sortedInsert } from '../utils/sortedInsert'
+import { Currency } from './currency'
+import { CurrencyAmount } from './fractions/currencyAmount'
+import { Fraction } from './fractions/fraction'
+import { Percent } from './fractions/percent'
+import { Price } from './fractions/price'
 import { Pair } from './pair'
 import { Route } from './route'
+import { Token } from './token'
 
 // minimal interface so the input output comparator may be shared across types
 interface InputOutput<TInput extends Currency, TOutput extends Currency> {

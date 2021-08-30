@@ -1,8 +1,7 @@
 import JSBI from 'jsbi'
 import invariant from 'tiny-invariant'
 
-import { CurrencyAmount, Token, TradeType, WETH9 as _WETH9 } from '../core'
-import { Pair, Route, Trade } from '../index'
+import { CurrencyAmount, Pair, Route, Token, Trade, TradeType, WETH9 as _WETH9 } from '../index'
 
 const ADDRESSES = [
   '0x0000000000000000000000000000000000000001',

@@ -1,9 +1,7 @@
 import JSBI from 'jsbi'
 import invariant from 'tiny-invariant'
 
-import { CurrencyAmount, Ether, Percent, Token, WETH9 } from './core'
-import { Pair, Route, Trade } from './entities'
-import { Router } from './router'
+import { CurrencyAmount, Ether, Pair, Percent, Route, Router, Token, Trade, WETH9 } from '../index'
 
 function checkDeadline(deadline: string[] | string): void {
   expect(typeof deadline).toBe('string')

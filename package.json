@@ -1,7 +1,7 @@
 {
-  "name": "@manekiswap/manekiswap-sdk",
+  "name": "@manekiswap/sdk",
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "🛠 An SDK for building applications on top of Manekiswap",
   "files": [
     "abis",
@@ -19,10 +19,11 @@
   "module": "dist/index.esm.js",
   "typings": "dist/index.d.ts",
   "scripts": {
-    "abis": "ts-node scripts/abis.ts && typechain --target ethers-v5 --out-dir abis/types './abis/**/*.json'",
+    "generate-abis": "ts-node scripts/abis.ts && ",
+    "compile-external-abi-types": "typechain --target ethers-v5 --out-dir abis/types './abis/**/*.json'",
     "clean": "rimraf dist",
     "lint": "eslint --fix --ext .ts",
-    "build": "yarn clean && rollup -c",
+    "build": "yarn clean && yarn compile-external-abi-types && rollup -c",
     "start": "rollup -c -w",
     "test": "jest"
   },

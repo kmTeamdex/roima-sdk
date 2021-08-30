@@ -3,9 +3,22 @@ import { keccak256, pack } from '@ethersproject/solidity'
 import JSBI from 'jsbi'
 import invariant from 'tiny-invariant'
 
-import { _997, _1000, FACTORY_ADDRESS, FIVE, INIT_CODE_HASH, MINIMUM_LIQUIDITY, ONE, ZERO } from '../constants'
-import { BigintIsh, CurrencyAmount, Price, sqrt, Token } from '../core'
+import {
+  _997,
+  _1000,
+  BigintIsh,
+  FACTORY_ADDRESS,
+  FIVE,
+  INIT_CODE_HASH,
+  MINIMUM_LIQUIDITY,
+  ONE,
+  ZERO
+} from '../constants'
 import { InsufficientInputAmountError, InsufficientReservesError } from '../errors'
+import { sqrt } from '../utils/sqrt'
+import { CurrencyAmount } from './fractions/currencyAmount'
+import { Price } from './fractions/price'
+import { Token } from './token'
 
 export const computePairAddress = ({
   factoryAddress,

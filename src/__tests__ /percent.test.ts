@@ -1,4 +1,4 @@
-import { Percent } from './percent'
+import { Percent } from '../index'
 
 describe('Percent', () => {
   describe('constructor', () => {

@@ -1,9 +1,33 @@
 import JSBI from 'jsbi'
 
+// jsbi
 export { JSBI }
 
-export { FACTORY_ADDRESS, INIT_CODE_HASH, MINIMUM_LIQUIDITY } from './constants'
-export * from './core'
-export * from './entities'
+// constants
+export * from './constants'
+
+// entities
+export * from './entities/currency'
+export * from './entities/ether'
+export * from './entities/fractions/currencyAmount'
+export * from './entities/fractions/fraction'
+export * from './entities/fractions/percent'
+export * from './entities/fractions/price'
+export * from './entities/nativeCurrency'
+export * from './entities/pair'
+export * from './entities/route'
+export * from './entities/token'
+export * from './entities/trade'
+export * from './entities/weth9'
+
+// errors
 export * from './errors'
+
+// router
 export * from './router'
+
+// utils
+export { computePriceImpact } from './utils/computePriceImpact'
+export { sortedInsert } from './utils/sortedInsert'
+export { sqrt } from './utils/sqrt'
+export { validateAndParseAddress } from './utils/validateAndParseAddress'

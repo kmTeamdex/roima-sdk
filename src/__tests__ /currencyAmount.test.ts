@@ -1,10 +1,6 @@
 import JSBI from 'jsbi'
 
-import { MaxUint256 } from '../../constants'
-import { Ether } from '../ether'
-import { Token } from '../token'
-import { CurrencyAmount } from './currencyAmount'
-import { Percent } from './percent'
+import { CurrencyAmount, Ether, MaxUint256, Percent, Token } from '../index'
 
 describe('CurrencyAmount', () => {
   const ADDRESS_ONE = '0x0000000000000000000000000000000000000001'

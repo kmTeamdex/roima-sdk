@@ -1,9 +1,6 @@
 import JSBI from 'jsbi'
 
-import { CurrencyAmount, Ether, Percent, Price, Token, TradeType, WETH9 } from '../core'
-import { Pair } from './pair'
-import { Route } from './route'
-import { Trade } from './trade'
+import { CurrencyAmount, Ether, Pair, Percent, Price, Route, Token, Trade, TradeType, WETH9 } from '../index'
 
 describe('Trade', () => {
   const ETHER = Ether.onChain(1)

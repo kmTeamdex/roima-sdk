@@ -1,6 +1,6 @@
 import JSBI from 'jsbi'
 
-import { Fraction } from './fraction'
+import { Fraction } from '../index'
 
 describe('Fraction', () => {
   describe('#quotient', () => {

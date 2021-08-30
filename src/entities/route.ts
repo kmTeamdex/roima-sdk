@@ -1,7 +1,9 @@
 import invariant from 'tiny-invariant'
 
-import { Currency, Price, Token } from '../core'
+import { Currency } from './currency'
+import { Price } from './fractions/price'
 import { Pair } from './pair'
+import { Token } from './token'
 
 export class Route<TInput extends Currency, TOutput extends Currency> {
   public readonly pairs: Pair[]

@@ -16,7 +16,7 @@ export default {
     typescript({
       tsconfig: './tsconfig.json',
       rootDir: 'src',
-      exclude: ['src/**/*.test.ts']
+      exclude: ['src/**/*.test.ts', 'src/__tests__/**/*']
     }),
     commonjs(),
     terser()

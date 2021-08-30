@@ -1,6 +1,4 @@
-import { CurrencyAmount, Price, Token, WETH9 } from '../core'
-import { InsufficientInputAmountError } from '../errors'
-import { computePairAddress, Pair } from './pair'
+import { computePairAddress, CurrencyAmount, InsufficientInputAmountError, Pair, Price, Token, WETH9 } from '../index'
 
 describe('computePairAddress', () => {
   it('should correctly compute the pool address', () => {

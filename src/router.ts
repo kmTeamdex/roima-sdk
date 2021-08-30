@@ -1,7 +1,12 @@
 import invariant from 'tiny-invariant'
 
-import { Currency, CurrencyAmount, Percent, Token, TradeType, validateAndParseAddress } from './core'
-import { Trade } from './entities'
+import { TradeType } from './constants'
+import { Currency } from './entities/currency'
+import { CurrencyAmount } from './entities/fractions/currencyAmount'
+import { Percent } from './entities/fractions/percent'
+import { Token } from './entities/token'
+import { Trade } from './entities/trade'
+import { validateAndParseAddress } from './utils/validateAndParseAddress'
 
 /**
  * Options for producing the arguments to send call to the router.

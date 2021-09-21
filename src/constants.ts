@@ -1,8 +1,12 @@
 import JSBI from 'jsbi'
 
-export const FACTORY_ADDRESS = '0x97c4ab76e6818FaA20Bc75D18B59b3F99685e2cf'
-
-export const INIT_CODE_HASH = '0xc504c260b7a99152dcc258f5a6f9e6628e16e080e46a2cf586d8889d33f02a9c'
+export enum SupportedChainId {
+  MAINNET = 1,
+  ROPSTEN = 3,
+  RINKEBY = 4,
+  GÖRLI = 5,
+  KOVAN = 42
+}
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
 

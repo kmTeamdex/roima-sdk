@@ -3,17 +3,8 @@ import { keccak256, pack } from '@ethersproject/solidity'
 import JSBI from 'jsbi'
 import invariant from 'tiny-invariant'
 
-import {
-  _997,
-  _1000,
-  BigintIsh,
-  FACTORY_ADDRESS,
-  FIVE,
-  INIT_CODE_HASH,
-  MINIMUM_LIQUIDITY,
-  ONE,
-  ZERO
-} from '../constants'
+import { FACTORY_ADDRESS, INIT_CODE_HASH } from '../addresses'
+import { _997, _1000, BigintIsh, FIVE, MINIMUM_LIQUIDITY, ONE, ZERO } from '../constants'
 import { InsufficientInputAmountError, InsufficientReservesError } from '../errors'
 import { sqrt } from '../utils/sqrt'
 import { CurrencyAmount } from './fractions/currencyAmount'
@@ -33,7 +24,7 @@ export const computePairAddress = ({
   return getCreate2Address(
     factoryAddress,
     keccak256(['bytes'], [pack(['address', 'address'], [token0.address, token1.address])]),
-    INIT_CODE_HASH
+    INIT_CODE_HASH[token0.chainId]
   )
 }
 export class Pair {
@@ -41,7 +32,7 @@ export class Pair {
   private readonly tokenAmounts: [CurrencyAmount<Token>, CurrencyAmount<Token>]
 
   public static getAddress(tokenA: Token, tokenB: Token): string {
-    return computePairAddress({ factoryAddress: FACTORY_ADDRESS, tokenA, tokenB })
+    return computePairAddress({ factoryAddress: FACTORY_ADDRESS[tokenA.chainId], tokenA, tokenB })
   }
 
   public constructor(currencyAmountA: CurrencyAmount<Token>, tokenAmountB: CurrencyAmount<Token>) {

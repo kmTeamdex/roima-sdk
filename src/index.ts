@@ -4,6 +4,7 @@ import JSBI from 'jsbi'
 export { JSBI }
 
 // constants
+export * from './addresses'
 export * from './constants'
 
 // entities

@@ -35,17 +35,15 @@ export class Pair {
     return computePairAddress({ factoryAddress: FACTORY_ADDRESS[tokenA.chainId], tokenA, tokenB })
   }
 
-  public constructor(currencyAmountA: CurrencyAmount<Token>, tokenAmountB: CurrencyAmount<Token>) {
-    const tokenAmounts = currencyAmountA.currency.sortsBefore(tokenAmountB.currency) // does safety checks
-      ? [currencyAmountA, tokenAmountB]
-      : [tokenAmountB, currencyAmountA]
-    this.liquidityToken = new Token(
-      tokenAmounts[0].currency.chainId,
-      Pair.getAddress(tokenAmounts[0].currency, tokenAmounts[1].currency),
-      18,
-      'MLP',
-      'Maneki LP Token'
-    )
+  public static getLiquidityToken(tokenA: Token, tokenB: Token): Token {
+    return new Token(tokenA.chainId, Pair.getAddress(tokenA, tokenB), 18, 'MLP', 'Maneki LP Token')
+  }
+
+  public constructor(currencyAmountA: CurrencyAmount<Token>, currencyAmountB: CurrencyAmount<Token>) {
+    const tokenAmounts = currencyAmountA.currency.sortsBefore(currencyAmountB.currency) // does safety checks
+      ? [currencyAmountA, currencyAmountB]
+      : [currencyAmountB, currencyAmountA]
+    this.liquidityToken = Pair.getLiquidityToken(tokenAmounts[0].currency, tokenAmounts[1].currency)
     this.tokenAmounts = tokenAmounts as [CurrencyAmount<Token>, CurrencyAmount<Token>]
   }
 

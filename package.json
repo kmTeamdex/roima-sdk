@@ -1,7 +1,7 @@
 {
   "name": "@manekiswap/sdk",
   "license": "MIT",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "🛠 An SDK for building applications on top of Manekiswap",
   "files": [
     "abis",
@@ -13,7 +13,9 @@
   },
   "keywords": [
     "manekiswap",
-    "ethereum"
+    "polygon",
+    "dex",
+    "erc20"
   ],
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",

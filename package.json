@@ -1,19 +1,17 @@
 {
-  "name": "@manekiswap/sdk",
+  "name": "@wingswap/sdk",
   "license": "MIT",
   "version": "1.0.10",
-  "description": "🛠 An SDK for building applications on top of Manekiswap",
+  "description": "🛠 An SDK for building applications on top of Wingswap",
   "files": [
     "abis",
     "dist"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/manekiswap/sdk.git"
+    "url": "git+https://github.com/slowworks/sdk.git"
   },
   "keywords": [
-    "manekiswap",
-    "polygon",
     "dex",
     "erc20"
   ],
@@ -68,7 +66,7 @@
     "preset": "ts-jest"
   },
   "bugs": {
-    "url": "https://github.com/manekiswap/sdk/issues"
+    "url": "https://github.com/slowworks/sdk/issues"
   },
-  "homepage": "https://github.com/manekiswap/sdk#readme"
+  "homepage": "https://github.com/slowworks/sdk#readme"
 }

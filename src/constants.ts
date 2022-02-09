@@ -6,7 +6,7 @@ export enum SupportedChainId {
   RINKEBY = 4,
   GÖRLI = 5,
   KOVAN = 42,
-  POLYGON = 137,
+  SMART_CHAIN = 56,
   MUMBAI = 80001
 }
 

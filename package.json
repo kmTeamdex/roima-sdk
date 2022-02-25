@@ -1,8 +1,8 @@
 {
-  "name": "@wingswap/sdk",
+  "name": "@wingsswap/sdk",
   "license": "MIT",
-  "version": "1.0.10",
-  "description": "🛠 An SDK for building applications on top of Wingswap",
+  "version": "1.0.30",
+  "description": "🛠 An SDK for building applications on top of wingsswap",
   "files": [
     "abis",
     "dist"
@@ -68,5 +68,6 @@
   "bugs": {
     "url": "https://github.com/slowworks/sdk/issues"
   },
-  "homepage": "https://github.com/slowworks/sdk#readme"
+  "homepage": "https://github.com/slowworks/sdk#readme",
+  "author": ""
 }

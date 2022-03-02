@@ -3,7 +3,7 @@
   "contractName": "UniswapV2Router02",
   "sourceName": "contracts/uniswapv2/UniswapV2Router02.sol",
   "abi": [
-   {
+  {
 			"inputs": [
 				{
 					"internalType": "address",
@@ -269,6 +269,19 @@
 					"internalType": "uint256[]",
 					"name": "amounts",
 					"type": "uint256[]"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [],
+			"name": "marketingRate",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
 				}
 			],
 			"stateMutability": "view",

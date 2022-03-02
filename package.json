@@ -1,7 +1,7 @@
 {
   "name": "@wingsswap/sdk",
   "license": "MIT",
-  "version": "1.0.30",
+  "version": "1.0.50",
   "description": "🛠 An SDK for building applications on top of wingsswap",
   "files": [
     "abis",

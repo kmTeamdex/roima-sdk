@@ -1,0 +1,398 @@
+{
+  "name": "BEP20 Token List",
+  "timestamp": "2020-10-19T09:52:55.386Z",
+  "version": {
+    "major": 1,
+    "minor": 9,
+    "patch": 25
+  },
+  "tags": {},
+  "logoURI": "https://tokens.bscswap.com/images/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.png",
+  "keywords": ["bscswap", "default"],
+  "tokens": [
+    {
+      "name": "Cardano Token",
+      "address": "0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47",
+      "symbol": "ADA",
+      "decimals": 18,
+      "chainId": 56,
+      "logoURI": "https://tokens.bscswap.com/images/0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47.png"
+    },
+    {
+      "name": "Ankr",
+      "address": "0xf307910A4c7bbc79691fD374889b36d8531B08e3",
+      "symbol": "ANKR",
+      "decimals": 18,
+      "chainId": 56,
+      "logoURI": "https://tokens.bscswap.com/images/0xf307910A4c7bbc79691fD374889b36d8531B08e3.png"
+    },
+    {
+      "name": "Cosmos",
+      "address": "0x0Eb3a705fc54725037CC9e008bDede697f62F335",
+      "symbol": "ATOM",
+      "decimals": 18,
+      "chainId": 56,
+      "logoURI": "https://tokens.bscswap.com/images/0x0Eb3a705fc54725037CC9e008bDede697f62F335.png"
+    },
+    {
+      "name": "BakeryToken",
+      "address": "0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5",
+      "symbol": "BAKE",
+      "decimals": 18,
+      "chainId": 56,
+      "logoURI": "https://tokens.bscswap.com/images/0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5.png"
+    },
+    {
+      "name": "Band Protocol",
+      "address": "0xAD6cAEb32CD2c308980a548bD0Bc5AA4306c6c18",
+      "symbol": "BAND",
+      "decimals": 18,
+      "chainId": 56,
+      "logoURI": "https://tokens.bscswap.com/images/0xAD6cAEb32CD2c308980a548bD0Bc5AA4306c6c18.png"
+    },
+    {
+      "name": "Bitcoin Cash Token",
+      "address": "0x8fF795a6F4D97E7887C79beA79aba5cc76444aDf",
+      "symbol": "BCH",
+      "decimals": 18,
+      "chainId": 56,
+      "logoURI": "https://tokens.bscswap.com/images/0x8fF795a6F4D97E7887C79beA79aba5cc76444aDf.png"
+    },
+    {
+      "name": "Bearn-fi",
+      "address": "0xAFa4f3D72f0803B50C99663B3E90806d9D290770",
+      "symbol": "BFI",
+      "decimals": 18,
+      "chainId": 56,
+      "logoURI": "https://tokens.bscswap.com/images/0xAFa4f3D72f0803B50C99663B3E90806d9D290770.png"
+    },
+    {
+      "name": "BillionHappiness",
+      "address": "0xA6381C6Fd8f40A44721eF4f61eDc1a8CCCa7BF3d",
+      "symbol": "BHC",
+      "decimals": 18,
+      "chainId": 56,
+      "logoURI": "https://tokens.bscswap.com/images/0xA6381C6Fd8f40A44721eF4f61eDc1a8CCCa7BF3d.png"
+    },
+    {
+      "name": "BTCB Token",
+      "address": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+      "symbol": "BTCB",
+      "decimals": 18,
+      "chainId": 56,
+      "logoURI": "https://tokens.bscswap.com/images/0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c.png"
+    },
+    {
+      "name": "Burger Swap",
+      "address": "0xAe9269f27437f0fcBC232d39Ec814844a51d6b8f",
+      "symbol": "BURGER",
+      "decimals": 18,
+      "chainId": 56,
+      "logoURI": "https://tokens.bscswap.com/images/0xAe9269f27437f0fcBC232d39Ec814844a51d6b8f.png"
+    },
+    {
+      "name": "Binance Usd",
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "symbol": "BUSD",
+      "decimals": 18,
+      "chainId": 56,
+      "logoURI": "https://tokens.bscswap.com/images/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.png"
+    },
+    {
+      "name": "Pancake Token",
+      "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+      "symbol": "Cake",
+      "decimals": 18,
+      "chainId": 56,
+      "logoURI": "https://tokens.bscswap.com/images/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+    },
+    {
+      "name": "CanYaCoin",
+      "address": "0x007EA5C0Ea75a8DF45D288a4debdD5bb633F9e56",
+      "symbol": "CAN",
+      "decimals": 18,
+      "chainId": 56,
+      "logoURI": "https://tokens.bscswap.com/images/0x007EA5C0Ea75a8DF45D288a4debdD5bb633F9e56.png"
+    },
+    {
+      "name": "Cubiex",
+      "address": "0x34681C1035F97E1eDcccec5f142e02FF81a3A230",
+      "symbol": "CBIX",
+      "decimals": 18,
+      "chainId": 56,
+      "logoURI": "https://tokens.bscswap.com/images/0x34681C1035F97E1eDcccec5f142e02FF81a3A230.png"
+    },
+    {
+      "name": "Cream BNB",
+      "address": "0x1Ffe17B99b439bE0aFC831239dDECda2A790fF3A",
+      "symbol": "crBNB",
+      "decimals": 8,
+      "chainId": 56,
+      "logoURI": "https://tokens.bscswap.com/images/0x1Ffe17B99b439bE0aFC831239dDECda2A790fF3A.png"
+    },
+    {
+      "name": "Cream Binance USD",
+      "address": "0x2Bc4eb013DDee29D37920938B96d353171289B7C",
+      "symbol": "crBUSD",
+      "decimals": 8,
+      "chainId": 56,
+      "logoURI": "https://tokens.bscswap.com/images/0x2Bc4eb013DDee29D37920938B96d353171289B7C.png"
+    },
+    {
+      "name": "Cream",
+      "address": "0xd4CB328A82bDf5f03eB737f37Fa6B370aef3e888",
+      "symbol": "CREAM",
+      "decimals": 18,
+      "chainId": 56,
+      "logoURI": "https://tokens.bscswap.com/images/0xd4CB328A82bDf5f03eB737f37Fa6B370aef3e888.png"
+    },
+    {
+      "name": "Dai",
+      "address": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
+      "symbol": "DAI",
+      "decimals": 18,
+      "chainId": 56,
+      "logoURI": "https://tokens.bscswap.com/images/0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3.png"
+    },
+    {
+      "name": "DOS Network",
+      "address": "0xDc0f0a5719c39764b011eDd02811BD228296887C",
+      "symbol": "DOS",
+      "decimals": 18,
+      "chainId": 56,
+      "logoURI": "https://tokens.bscswap.com/images/0xDc0f0a5719c39764b011eDd02811BD228296887C.png"
+    },
+    {
+      "name": "Polkadot Token",
+      "address": "0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402",
+      "symbol": "DOT",
+      "decimals": 18,
+      "chainId": 56,
+      "logoURI": "https://tokens.bscswap.com/images/0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402.png"
+    },
+    {
+      "name": "EOS Token",
+      "address": "0x56b6fB708fC5732DEC1Afc8D8556423A2EDcCbD6",
+      "symbol": "EOS",
+      "decimals": 18,
+      "chainId": 56,
+      "logoURI": "https://tokens.bscswap.com/images/0x56b6fB708fC5732DEC1Afc8D8556423A2EDcCbD6.png"
+    },
+    {
+      "name": "Force Protocol",
+      "address": "0x658A109C5900BC6d2357c87549B651670E5b0539",
+      "symbol": "FOR",
+      "decimals": 18,
+      "chainId": 56,
+      "logoURI": "https://tokens.bscswap.com/images/0x658A109C5900BC6d2357c87549B651670E5b0539.png"
+    },
+    {
+      "name": "JustLiquidity",
+      "address": "0x32dFFc3fE8E3EF3571bF8a72c0d0015C5373f41D",
+      "symbol": "JULb",
+      "decimals": 18,
+      "chainId": 56,
+      "logoURI": "https://tokens.bscswap.com/images/0x32dFFc3fE8E3EF3571bF8a72c0d0015C5373f41D.png"
+    },
+    {
+      "name": "BNB48 Club Token",
+      "address": "0xe6DF05CE8C8301223373CF5B969AFCb1498c5528",
+      "symbol": "KOGE",
+      "decimals": 18,
+      "chainId": 56,
+      "logoURI": "https://tokens.bscswap.com/images/0xe6DF05CE8C8301223373CF5B969AFCb1498c5528.png"
+    },
+    {
+      "name": "ChainLink",
+      "address": "0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD",
+      "symbol": "LINK",
+      "decimals": 18,
+      "chainId": 56,
+      "logoURI": "https://tokens.bscswap.com/images/0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD.png"
+    },
+    {
+      "name": "Litecoin Token",
+      "address": "0x4338665CBB7B2485A8855A139b75D5e34AB0DB94",
+      "symbol": "LTC",
+      "decimals": 18,
+      "chainId": 56,
+      "logoURI": "https://tokens.bscswap.com/images/0x4338665CBB7B2485A8855A139b75D5e34AB0DB94.png"
+    },
+    {
+      "name": "Milk Protocol",
+      "address": "0x8E9f5173e16Ff93F81579d73A7f9723324d6B6aF",
+      "symbol": "MILK",
+      "decimals": 18,
+      "chainId": 56,
+      "logoURI": "https://tokens.bscswap.com/images/0x8E9f5173e16Ff93F81579d73A7f9723324d6B6aF.png"
+    },
+    {
+      "name": "Ontology Token",
+      "address": "0xFd7B3A77848f1C2D67E05E54d78d174a0C850335",
+      "symbol": "ONT",
+      "decimals": 18,
+      "chainId": 56,
+      "logoURI": "https://tokens.bscswap.com/images/0xFd7B3A77848f1C2D67E05E54d78d174a0C850335.png"
+    },
+    {
+      "name": "Prometeus",
+      "address": "0xaF53d56ff99f1322515E54FdDE93FF8b3b7DAFd5",
+      "symbol": "PROM",
+      "decimals": 18,
+      "chainId": 56,
+      "logoURI": "https://tokens.bscswap.com/images/0xaF53d56ff99f1322515E54FdDE93FF8b3b7DAFd5.png"
+    },
+    {
+      "name": "Propel",
+      "address": "0x9B44Df3318972bE845d83f961735609137C4C23c",
+      "symbol": "PROPEL",
+      "decimals": 18,
+      "chainId": 56,
+      "logoURI": "https://tokens.bscswap.com/images/0x9B44Df3318972bE845d83f961735609137C4C23c.png"
+    },
+    {
+      "name": "Rabbit Finance",
+      "address": "0x95a1199eba84ac5f19546519e287d43d2f0e1b41",
+      "symbol": "RABBIT",
+      "decimals": 18,
+      "chainId": 56,
+      "logoURI": "https://tokens.bscswap.com/images/0x8C4fC5416160Bf4A1be2128aaD8a709f15B50B1B.png"
+    },
+    {
+      "name": "Raven Protocol",
+      "address": "0xcD7C5025753a49f1881B31C48caA7C517Bb46308",
+      "symbol": "RAVEN",
+      "decimals": 18,
+      "chainId": 56,
+      "logoURI": "https://tokens.bscswap.com/images/0xcD7C5025753a49f1881B31C48caA7C517Bb46308.png"
+    },
+    {
+      "name": "SPARTAN PROTOCOL TOKEN",
+      "address": "0x3910db0600ea925f63c36ddb1351ab6e2c6eb102",
+      "symbol": "SPARTA",
+      "decimals": 18,
+      "chainId": 56,
+      "logoURI": "https://tokens.bscswap.com/images/0xE4Ae305ebE1AbE663f261Bc00534067C80ad677C.png"
+    },
+    {
+      "name": "Trust Wallet Token",
+      "address": "0x4B0F1812e5Df2A09796481Ff14017e6005508003",
+      "symbol": "TWT",
+      "decimals": 18,
+      "chainId": 56,
+      "logoURI": "https://tokens.bscswap.com/images/0x4B0F1812e5Df2A09796481Ff14017e6005508003.png"
+    },
+    {
+      "name": "Tether",
+      "address": "0x55d398326f99059fF775485246999027B3197955",
+      "symbol": "USDT",
+      "decimals": 18,
+      "chainId": 56,
+      "logoURI": "https://tokens.bscswap.com/images/0x55d398326f99059fF775485246999027B3197955.png"
+    },
+    {
+      "name": "Wrapped BNB",
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "decimals": 18,
+      "chainId": 56,
+      "logoURI": "https://tokens.bscswap.com/images/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.png"
+    },
+    {
+      "name": "XRP Token",
+      "address": "0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE",
+      "symbol": "XRP",
+      "decimals": 18,
+      "chainId": 56,
+      "logoURI": "https://tokens.bscswap.com/images/0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE.png"
+    },
+    {
+      "name": "Tezos",
+      "address": "0x16939ef78684453bfDFb47825F8a5F714f12623a",
+      "symbol": "XTZ",
+      "decimals": 18,
+      "chainId": 56,
+      "logoURI": "https://tokens.bscswap.com/images/0x16939ef78684453bfDFb47825F8a5F714f12623a.png"
+    },
+    {
+      "name": "Venus",
+      "address": "0xcF6BB5389c92Bdda8a3747Ddb454cB7a64626C63",
+      "symbol": "XVS",
+      "decimals": 18,
+      "chainId": 56,
+      "logoURI": "https://tokens.bscswap.com/images/0xcF6BB5389c92Bdda8a3747Ddb454cB7a64626C63.png"
+    },
+    {
+      "name": "YFII finance",
+      "address": "0x7F70642d88cf1C4a3a7abb072B53B929b653edA5",
+      "symbol": "YFII",
+      "decimals": 18,
+      "chainId": 56,
+      "logoURI": "https://tokens.bscswap.com/images/0x7F70642d88cf1C4a3a7abb072B53B929b653edA5.png"
+    },
+    {
+      "name": "Zcash",
+      "address": "0x1Ba42e5193dfA8B03D15dd1B86a3113bbBEF8Eeb",
+      "symbol": "ZEC",
+      "decimals": 18,
+      "chainId": 56,
+      "logoURI": "https://tokens.bscswap.com/images/0x1Ba42e5193dfA8B03D15dd1B86a3113bbBEF8Eeb.png"
+    },
+    {
+      "name": "BTCB Token",
+      "address": "0x6ce8dA28E2f864420840cF74474eFf5fD80E65B8",
+      "symbol": "BTCB",
+      "decimals": 18,
+      "chainId": 97,
+      "logoURI": "https://tokens.bscswap.com/images/0x6ce8dA28E2f864420840cF74474eFf5fD80E65B8.png"
+    },
+    {
+      "name": "BUSD Token",
+      "address": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
+      "symbol": "BUSD",
+      "decimals": 18,
+      "chainId": 97,
+      "logoURI": "https://tokens.bscswap.com/images/0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee.png"
+    },
+    {
+      "name": "Dai Token",
+      "address": "0xEC5dCb5Dbf4B114C9d0F65BcCAb49EC54F6A0867",
+      "symbol": "DAI",
+      "decimals": 18,
+      "chainId": 97,
+      "logoURI": "https://tokens.bscswap.com/images/0xEC5dCb5Dbf4B114C9d0F65BcCAb49EC54F6A0867.png"
+    },
+    {
+      "name": "EOS Token",
+      "address": "0x6B043332090a6BE81De1503949Cfc8bac2cA1c33",
+      "symbol": "EOS",
+      "decimals": 18,
+      "chainId": 97,
+      "logoURI": "https://tokens.bscswap.com/images/0x6B043332090a6BE81De1503949Cfc8bac2cA1c33.png"
+    },
+    {
+      "name": "Ethereum Token",
+      "address": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
+      "symbol": "ETH",
+      "decimals": 18,
+      "chainId": 97,
+      "logoURI": "https://tokens.bscswap.com/images/0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378.png"
+    },
+    {
+      "name": "Tether USD",
+      "address": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+      "symbol": "USDT",
+      "decimals": 18,
+      "chainId": 97,
+      "logoURI": "https://tokens.bscswap.com/images/0x337610d27c682E347C9cD60BD4b3b107C9d34dDd.png"
+    },
+    {
+      "name": "Wrapped BNB",
+      "address": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "symbol": "WBNB",
+      "decimals": 18,
+      "chainId": 97,
+      "logoURI": "https://tokens.bscswap.com/images/0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd.png"
+    }
+  ]
+}

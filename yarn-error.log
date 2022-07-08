@@ -31,7 +31,7 @@ npm manifest:
     "name": "@wingswap/sdk",
     "license": "MIT",
     "version": "1.0.10",
-    "description": "🛠 An SDK for building applications on top of Wingswap",
+    "description": "🛠 An SDK for building applications on top of Roimaswap",
     "files": [
       "abis",
       "dist"

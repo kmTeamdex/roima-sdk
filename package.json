@@ -1,7 +1,7 @@
 {
   "name": "@roimaswap/sdk",
   "license": "MIT",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "🛠 An SDK for building applications on top of roimaswap",
   "files": [
     "abis",
